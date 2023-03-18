@@ -74,10 +74,12 @@ class ImageListingFragment : Fragment() {
         viewModel.model.imageList.observe(viewLifecycleOwner) {
             if (!it.isNullOrEmpty()) {
                 binding.clImageCount.visibility = View.VISIBLE
+                binding.llNoImage.visibility=View.INVISIBLE
                 setImageCount(binding.tvImageCount, it.size.toString())
                 initializeRecyclerView(it)
             } else {
                 binding.clImageCount.visibility = View.GONE
+                binding.llNoImage.visibility=View.VISIBLE
             }
         }
 
