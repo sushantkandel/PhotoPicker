@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhotoPicker</string>
+    <string name="pick_image">Pick image</string>
+    <string name="ok">OK</string>
+    <string name="invalid_no_of_images">You are only allowed to select two images</string>
+    <string name="image_count">Image Count : %1$s </string>
+    <string name="enter_the_new_list_size">Photo Picker</string>
+    <string name="please_enter_the_number_to_change_the_list_size">Please enter the number to change the list size</string>
+    <string name="apply">APPLY</string>
+</resources>
