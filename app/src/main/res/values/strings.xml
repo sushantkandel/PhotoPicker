@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PhotoPicker</string>
+    <string name="app_name">Photo App</string>
     <string name="pick_image">Pick image</string>
     <string name="ok">OK</string>
     <string name="invalid_no_of_images">You are only allowed to select two images</string>
